@@ -1,0 +1,104 @@
+
+body {
+    background-color: #f7f9fc;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.table {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table img {
+    border-radius: 50%;
+    border: 2px solid #2c3e50;
+}
+
+
+.btn {
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to left, #6a11cb, #2575fc);
+}
+
+.btn-success {
+    background-color: #27ae60;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #f39c12;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border: none;
+}
+
+
+.modal-header {
+    background-color: #2c3e50;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+
+form label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+form .form-control:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+.modal-title {
+    color: black !important;
+}
+
